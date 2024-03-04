@@ -1,0 +1,25 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sun Mar  3 21:43:54 2024
+[*]
+[dumpfile] "/home/jay/Desktop/ESL_related/systemC_proj/Adder_Sequential/RESULT.vcd"
+[dumpfile_mtime] "Sun Mar  3 21:43:25 2024"
+[dumpfile_size] 779366
+[savefile] "/home/jay/Desktop/ESL_related/systemC_proj/Adder_Sequential/wave.gtkw"
+[timestart] 0
+[size] 1850 1016
+[pos] -51 -51
+*-15.746008 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 233
+[signals_width] 142
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@28
+SystemC.clock
+SystemC.reset_n
+@421
+SystemC.result_o[31:0]
+SystemC.srcA_i[31:0]
+SystemC.srcB_i[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
