@@ -1,0 +1,36 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Thu Mar  7 13:56:23 2024
+[*]
+[dumpfile] "/home/jay/Desktop/ESL_related/Uart_TX_ver2.0/RESULT.vcd"
+[dumpfile_mtime] "Thu Mar  7 13:56:02 2024"
+[dumpfile_size] 656550076
+[savefile] "/home/jay/Desktop/ESL_related/Uart_TX_ver2.0/wave.gtkw"
+[timestart] 0
+[size] 1872 1016
+[pos] -1 -1
+*-33.823719 4860000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 233
+[signals_width] 193
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@28
+SystemC.clk
+@29
+SystemC.rst_n
+@22
+SystemC.data_i[7:0]
+@28
+SystemC.data_i[7:0]
+SystemC.enable
+SystemC.uart_txd
+@24
+SystemC.BaudCnt[13:0]
+SystemC.fstate[1:0]
+@22
+SystemC.rx_data[31:0]
+SystemC.tx_data[31:0]
+@24
+SystemC.correctNum[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
