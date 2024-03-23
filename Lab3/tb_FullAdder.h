@@ -8,7 +8,7 @@ SC_MODULE(tb_FullAdder){
     sc_out <bool> A;
     sc_out <bool> B;
     sc_out <bool> Cin;
-    sc_in  <bool> Sum;
+    sc_in  <bool> S;
     sc_in  <bool> Cout;     
 
     void source(void);

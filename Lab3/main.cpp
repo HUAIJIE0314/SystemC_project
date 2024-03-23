@@ -23,7 +23,7 @@ SC_MODULE( SYSTEM ){
     sc_signal <bool> Full_adder_A;
     sc_signal <bool> Full_adder_B;
     sc_signal <bool> Full_adder_Cin;
-    sc_signal <bool> Full_adder_Sum;
+    sc_signal <bool> Full_adder_S;
     sc_signal <bool> Full_adder_Cout;    
 
     SC_CTOR( SYSTEM ){
@@ -45,14 +45,14 @@ SC_MODULE( SYSTEM ){
         FullAdder0->A(Full_adder_A);
         FullAdder0->B(Full_adder_B);
         FullAdder0->Cin(Full_adder_Cin);
-        FullAdder0->Sum(Full_adder_Sum);
+        FullAdder0->S(Full_adder_S);
         FullAdder0->Cout(Full_adder_Cout);
 
         tb_FullAdder0 = new tb_FullAdder("tb_FullAdder");
         tb_FullAdder0->A(Full_adder_A);
         tb_FullAdder0->B(Full_adder_B);
         tb_FullAdder0->Cin(Full_adder_Cin);
-        tb_FullAdder0->Sum(Full_adder_Sum);
+        tb_FullAdder0->S(Full_adder_S);
         tb_FullAdder0->Cout(Full_adder_Cout);
     }
 

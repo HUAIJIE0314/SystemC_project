@@ -9,7 +9,7 @@ SC_MODULE(FullAdder){
   sc_in  <bool> A;
   sc_in  <bool> B;
   sc_in  <bool> Cin;
-  sc_out <bool> Sum;
+  sc_out <bool> S;
   sc_out <bool> Cout;     
 
   void xorFunc(void);
@@ -36,7 +36,7 @@ SC_MODULE(FullAdder){
     HalfAdder2 = new HalfAdder("HalfAdder2");
     HalfAdder2->A(s1);
     HalfAdder2->B(Cin);
-    HalfAdder2->Sum(Sum);
+    HalfAdder2->Sum(S);
     HalfAdder2->Carry(c2);
 
   }

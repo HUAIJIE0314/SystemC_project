@@ -12,13 +12,13 @@ void tb_FullAdder::source(void){
                 B = j;
                 Cin = k;
                 wait(10, SC_NS);
-                sc_uint<2> concat_result = (sc_uint<1>(Cout.read()), sc_uint<1>(Sum.read()));
+                sc_uint<2> concat_result = (sc_uint<1>(Cout.read()), sc_uint<1>(S.read()));
                 if( concat_result == Golden[i*4+j*2+k] ){
                     correctNum += 1;
                     cout << "correct !!!!!" << endl;
                 }
                 else{
-                    cout << "Failed..... Golden (Cout, Sum) = (" << Golden[i*4+j*2+k][1] << ", " << Golden[i*4+j*2+k][0] << "), yours = (" << Cout.read() << ", " << Sum.read() << ")" << endl;
+                    cout << "Failed..... Golden (Cout, S) = (" << Golden[i*4+j*2+k][1] << ", " << Golden[i*4+j*2+k][0] << "), yours = (" << Cout.read() << ", " << S.read() << ")" << endl;
                 }
             }
         }
