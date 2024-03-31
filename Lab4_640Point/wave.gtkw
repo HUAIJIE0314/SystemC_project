@@ -1,0 +1,63 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sun Mar 31 15:00:17 2024
+[*]
+[dumpfile] "/home/jay/Desktop/ESL_related/Lab4_640Point/RESULT.vcd"
+[dumpfile_mtime] "Sun Mar 31 14:57:52 2024"
+[dumpfile_size] 65815
+[savefile] "/home/jay/Desktop/ESL_related/Lab4_640Point/wave.gtkw"
+[timestart] 0
+[size] 1872 1016
+[pos] -1 -1
+*-18.709497 673600 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 233
+[signals_width] 86
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@28
+SystemC.clk
+SystemC.rst
+@10022
+SystemC.x[31:0]
+@20000
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+@10022
+SystemC.y[31:0]
+@20000
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+[pattern_trace] 1
+[pattern_trace] 0
