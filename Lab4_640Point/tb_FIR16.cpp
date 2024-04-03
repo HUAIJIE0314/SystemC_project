@@ -10,9 +10,9 @@ using namespace std;
 void tb_FIR16::source(void){
 
     // Reset
-    rst = 1;
-    wait(3);
     rst = 0;
+    wait(3);
+    rst = 1;
 
     int idx = 0;
     //  ================ read firData file ================
@@ -76,7 +76,7 @@ void tb_FIR16::source(void){
 }
 
 void tb_FIR16::checkData(void){
-    wait(3+1);
+    wait(3);
     for(int patIdx=0;patIdx<GOLEN_NUM;patIdx++){
       wait();
       if(y.read() == Golden[patIdx]){

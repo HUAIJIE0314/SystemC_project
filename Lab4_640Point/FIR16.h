@@ -14,6 +14,8 @@ SC_MODULE(FIR16){
   sc_out <sc_uint<32> >   y;
 
   void FIR16_Func(void);
+  void comb(void);
+
   void trace(sc_trace_file* );
 
   
@@ -22,8 +24,13 @@ SC_MODULE(FIR16){
   sc_uint<64> product;
 
   SC_CTOR(FIR16){
+
     SC_CTHREAD(FIR16_Func, clk.pos());            
-    reset_signal_is(rst, true);
+    reset_signal_is(rst, false);
+
+    SC_METHOD(comb);
+    sensitive << x;
+    
 
     sum = 0;
     for(int i=0;i<FIR_STAGE;i++)FIR_REG[i] = 0;
